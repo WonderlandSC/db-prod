@@ -1,0 +1,400 @@
+{
+  "about/dani.png": {
+    "id": "71f5ff426ff079bdc2c4",
+    "widths": [
+      128,
+      256,
+      640,
+      960,
+      1600
+    ]
+  },
+  "about/dido.png": {
+    "id": "058deeef51a965a53ca2",
+    "widths": [
+      128,
+      256,
+      640,
+      960,
+      1078
+    ]
+  },
+  "collections/ad.png": {
+    "id": "6e8075e5a9604db3ee30",
+    "widths": [
+      128,
+      256,
+      640,
+      960,
+      1600
+    ]
+  },
+  "collections/movie.png": {
+    "id": "e89dd5fd1718b12197a0",
+    "widths": [
+      128,
+      256,
+      640,
+      960,
+      1600
+    ]
+  },
+  "collections/podcasts.png": {
+    "id": "81608dda004e7d021253",
+    "widths": [
+      128,
+      256,
+      640,
+      960,
+      1600
+    ]
+  },
+  "collections/social.png": {
+    "id": "4d323464e3dfc8bce356",
+    "widths": [
+      128,
+      256,
+      640,
+      960,
+      1600
+    ]
+  },
+  "collections/youtube.png": {
+    "id": "b2c77fcddb7264590317",
+    "widths": [
+      128,
+      256,
+      640,
+      960,
+      1600
+    ]
+  },
+  "logo/logomark.png": {
+    "id": "d8cc5d5440814d36efb4",
+    "widths": [
+      128,
+      256,
+      640,
+      960,
+      1600
+    ]
+  },
+  "partners/bnr.png": {
+    "id": "b86126f298ebd92bdf95",
+    "widths": [
+      128,
+      256,
+      500
+    ]
+  },
+  "partners/bnt.png": {
+    "id": "6d44a51fc720e61ff762",
+    "widths": [
+      128,
+      256,
+      500
+    ]
+  },
+  "partners/dragon.png": {
+    "id": "e005688b729fef31cd6f",
+    "widths": [
+      128,
+      256,
+      500
+    ]
+  },
+  "partners/euronews.png": {
+    "id": "d7a404525b8df75dc2ba",
+    "widths": [
+      128,
+      256,
+      500
+    ]
+  },
+  "partners/gravirano.png": {
+    "id": "8d318a6cb6cd188d2886",
+    "widths": [
+      128,
+      256,
+      500
+    ]
+  },
+  "partners/gsm.png": {
+    "id": "4d2068981f2dca1966ad",
+    "widths": [
+      128,
+      256,
+      500
+    ]
+  },
+  "partners/izbrah.png": {
+    "id": "7686763865bd98f93ef5",
+    "widths": [
+      128,
+      256,
+      500
+    ]
+  },
+  "partners/law.png": {
+    "id": "c3487fa1cb0e843b35d4",
+    "widths": [
+      128,
+      256,
+      500
+    ]
+  },
+  "partners/novaaa.png": {
+    "id": "09c586a429a0e46a7743",
+    "widths": [
+      128,
+      256,
+      500
+    ]
+  },
+  "partners/onair.png": {
+    "id": "44546220ca35191e2079",
+    "widths": [
+      128,
+      256,
+      500
+    ]
+  },
+  "partners/rent.png": {
+    "id": "e4263950f82870de58de",
+    "widths": [
+      128,
+      256,
+      500
+    ]
+  },
+  "partners/soulbg.png": {
+    "id": "b084878957909ba73eb8",
+    "widths": [
+      128,
+      256,
+      500
+    ]
+  },
+  "partners/sport.png": {
+    "id": "3e357c815dafc63f99c3",
+    "widths": [
+      128,
+      256,
+      500
+    ]
+  },
+  "partners/sun.png": {
+    "id": "9b666d43eaf4286fd283",
+    "widths": [
+      128,
+      256,
+      500
+    ]
+  },
+  "partners/vreme.png": {
+    "id": "f2c633e33199b75e06be",
+    "widths": [
+      128,
+      256,
+      500
+    ]
+  },
+  "projects/chist-bg.png": {
+    "id": "1700948039cc90746860",
+    "widths": [
+      128,
+      256,
+      640,
+      676
+    ]
+  },
+  "projects/chist-bg/1.jpg": {
+    "id": "5ebd3999c27707b6c858",
+    "widths": [
+      128,
+      256,
+      640,
+      960,
+      1600
+    ]
+  },
+  "projects/chist-bg/2.jpg": {
+    "id": "ceeb322b25881aa3f58b",
+    "widths": [
+      128,
+      256,
+      640,
+      960,
+      1600
+    ]
+  },
+  "projects/chist-bg/3.jpg": {
+    "id": "f53c29ac0ab277695805",
+    "widths": [
+      128,
+      256,
+      640,
+      960,
+      1600
+    ]
+  },
+  "projects/chist-bg/4.jpg": {
+    "id": "0a8e3a84e637ceef1943",
+    "widths": [
+      128,
+      256,
+      640,
+      960,
+      1600
+    ]
+  },
+  "projects/izbrah-bg.png": {
+    "id": "03f155e4b444315cb881",
+    "widths": [
+      128,
+      256,
+      640,
+      750
+    ]
+  },
+  "projects/nie-mojem.png": {
+    "id": "24beab94b81fc3e22daf",
+    "widths": [
+      128,
+      256,
+      640,
+      960,
+      1600
+    ]
+  },
+  "projects/nie-mojem2.png": {
+    "id": "12a721fc085b64de4473",
+    "widths": [
+      128,
+      256,
+      640,
+      960,
+      1600
+    ]
+  },
+  "projects/nin/1.jpg": {
+    "id": "46a69a466313ddde9167",
+    "widths": [
+      128,
+      256,
+      640,
+      960,
+      1600
+    ]
+  },
+  "projects/nin/10.jpg": {
+    "id": "20273b428bd7bb948674",
+    "widths": [
+      128,
+      256,
+      640,
+      960,
+      1600
+    ]
+  },
+  "projects/nin/11.jpg": {
+    "id": "068f902d43b2897e4084",
+    "widths": [
+      128,
+      256,
+      640,
+      960,
+      1600
+    ]
+  },
+  "projects/nin/3.jpg": {
+    "id": "d105a5eb5031f65fb9be",
+    "widths": [
+      128,
+      256,
+      640,
+      960,
+      1600
+    ]
+  },
+  "projects/nin/4.jpg": {
+    "id": "d29b737197649f9f613e",
+    "widths": [
+      128,
+      256,
+      640,
+      960,
+      1600
+    ]
+  },
+  "projects/nin/5.jpg": {
+    "id": "cddf89d6f4e508bc9efd",
+    "widths": [
+      128,
+      256,
+      640,
+      960,
+      1600
+    ]
+  },
+  "projects/nin/6.jpg": {
+    "id": "d2ffde40b80483c7f071",
+    "widths": [
+      128,
+      256,
+      640,
+      960,
+      1600
+    ]
+  },
+  "projects/nin/7.jpg": {
+    "id": "3f404faeac756ae6b020",
+    "widths": [
+      128,
+      256,
+      640,
+      960,
+      1600
+    ]
+  },
+  "projects/nin/8.jpg": {
+    "id": "199f3f3fccaa25b6362b",
+    "widths": [
+      128,
+      256,
+      640,
+      960,
+      1600
+    ]
+  },
+  "projects/nin/9.jpg": {
+    "id": "f102109d288a137c43e9",
+    "widths": [
+      128,
+      256,
+      640,
+      960,
+      1600
+    ]
+  },
+  "services/social-media-c.png": {
+    "id": "aa4fcb8c97a00ea004a5",
+    "widths": [
+      128,
+      256,
+      640,
+      960,
+      1000
+    ]
+  },
+  "services/video-c.png": {
+    "id": "e3b7bfa59a8a903e254e",
+    "widths": [
+      128,
+      256,
+      640,
+      960,
+      1000
+    ]
+  }
+}

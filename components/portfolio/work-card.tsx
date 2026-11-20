@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
+import Image from "@/components/ui/site-image";
 import { motion } from "framer-motion";
 import { CornerBorders } from "@/components/ui/corner-borders";
 import { Card } from "@/components/ui/card";

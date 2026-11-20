@@ -10,6 +10,8 @@ import { ContactTest } from "@/components/sections/contact-test";
 import type { Metadata } from "next";
 import { BASE_URL } from "@/lib/env";
 
+const homeCache = { next: { revalidate: 86400 } };
+
 // Homepage-specific metadata optimized for Bulgarian SEO
 export const metadata: Metadata = {
     title: "db Productions | Видео Продукция и Дигитална Агенция в България",
@@ -34,10 +36,10 @@ export const metadata: Metadata = {
 
 export default async function Home() {
     const [services, categories, partnersData, orderIds] = await Promise.all([
-        client.fetch(servicesQuery, {}, { next: { revalidate: 3600 } }),
-        client.fetch(categoriesQuery, {}, { next: { revalidate: 3600 } }),
-        client.fetch(partnersQuery, {}, { next: { revalidate: 3600 } }),
-        client.fetch(portfolioOrderQuery, {}, { next: { revalidate: 3600 } }),
+        client.fetch(servicesQuery, {}, homeCache),
+        client.fetch(categoriesQuery, {}, homeCache),
+        client.fetch(partnersQuery, {}, homeCache),
+        client.fetch(portfolioOrderQuery, {}, homeCache),
     ]);
 
     // Apply the explicit ordering from the Portfolio Settings singleton.

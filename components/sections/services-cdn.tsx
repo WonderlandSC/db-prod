@@ -2,7 +2,7 @@
 
 import { useEffect, useState, useRef } from "react";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "@/components/ui/site-image";
 import { motion, useInView } from "framer-motion";
 import { urlFor } from "@/lib/sanity/image";
 import { cn } from "@/lib/utils";
@@ -98,6 +98,7 @@ function ServiceCard({ service, index }: { service: ServiceData; index: number }
                         src={imageSrc}
                         alt={service.title}
                         fill
+                        sizes="(max-width: 767px) 100vw, (max-width: 1024px) 50vw, 512px"
                         className={cn(
                             "object-contain p-8 md:p-12 transition-all duration-1000 ease-in-out",
                             "grayscale brightness-150 contrast-125 opacity-60 group-hover/service:grayscale-0 group-hover/service:opacity-100 group-hover/service:brightness-100 group-hover/service:contrast-100 group-hover/service:scale-[1.02]",

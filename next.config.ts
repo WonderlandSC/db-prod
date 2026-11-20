@@ -11,31 +11,10 @@ const nextConfig: NextConfig = {
   poweredByHeader: false,
 
   images: {
-    // Image optimization for Core Web Vitals
-    formats: ['image/avif', 'image/webp'],
-    minimumCacheTTL: 60 * 60 * 24 * 30, // 30 days cache
-
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "cdn.jsdelivr.net",
-        port: "",
-        pathname: "/gh/Ethereumistic/**",
-      },
-      {
-        protocol: "https",
-        hostname: "flagcdn.com",
-        port: "",
-        pathname: "**",
-      },
-      {
-        // Sanity CDN for portfolio images
-        protocol: "https",
-        hostname: "cdn.sanity.io",
-        port: "",
-        pathname: "**",
-      },
-    ],
+    loader: "custom",
+    loaderFile: "./lib/image-loader.ts",
+    deviceSizes: [640, 960, 1600],
+    imageSizes: [128, 256],
   },
 
   // SEO: Trailing slash consistency
@@ -64,6 +43,10 @@ const nextConfig: NextConfig = {
             value: 'strict-origin-when-cross-origin',
           },
         ],
+      },
+      {
+        source: '/optimized-images/:path*',
+        headers: [{ key: 'Cache-Control', value: 'public, max-age=31536000, immutable' }],
       },
     ];
   },

@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { cn } from "@/lib/utils";
 import { WorkCard } from "@/components/portfolio/work-card";
 import { Portfolio2 } from "@/components/sections/portfolio2";
-import Image from "next/image";
+import Image from "@/components/ui/site-image";
 import { urlFor } from "@/lib/sanity/image";
 import { getVideoData } from "@/lib/utils/video";
 import type { Metadata } from "next";

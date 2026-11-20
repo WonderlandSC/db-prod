@@ -2,7 +2,7 @@ import { client } from "@/lib/sanity/client";
 import { notFound } from "next/navigation";
 import { cn } from "@/lib/utils";
 import { urlFor } from "@/lib/sanity/image";
-import Image from "next/image";
+import Image from "@/components/ui/site-image";
 import { getVideoData } from "@/lib/utils/video";
 import type { Metadata } from "next";
 

@@ -7,6 +7,7 @@ import { cn } from "@/lib/utils";
 import { useScrollAnchor } from "@/hooks/use-scroll-anchor";
 import { CornerBorders } from "@/components/ui/corner-borders";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+import imageLoader from "@/lib/image-loader";
 import { Button } from "../ui/button";
 
 const footerLinks = [
@@ -101,7 +102,7 @@ export function Footer() {
                                     <div className="relative z-10 flex-row  items-center gap-4 text-left">
                                         <Avatar size="2x" className="border translate-x-[30%] border-white/10 group-hover/nav:border-white/20 transition-colors duration-300">
                                             <AvatarImage
-                                                src="https://cdn.jsdelivr.net/gh/Ethereumistic/db-prod-assets/about/dido.png"
+                                                src={imageLoader({ src: "https://cdn.jsdelivr.net/gh/Ethereumistic/db-prod-assets/about/dido.png", width: 256 })}
                                                 alt="Дилян Калчев"
                                                 className="scale-[2.5] object-[center_-78%] -translate-x-[7%]"
                                             />
@@ -124,7 +125,7 @@ export function Footer() {
                                     <div className="relative z-10 flex-row items-center gap-4 text-left">
                                         <Avatar size="2x" className="border translate-x-[35%] border-white/10 group-hover/nav:border-white/20 transition-colors duration-300">
                                             <AvatarImage
-                                                src="https://cdn.jsdelivr.net/gh/Ethereumistic/db-prod-assets/about/dani.png"
+                                                src={imageLoader({ src: "https://cdn.jsdelivr.net/gh/Ethereumistic/db-prod-assets/about/dani.png", width: 256 })}
                                                 alt="Даниел Ненов"
                                                 className="scale-[2.5] object-[center_-35%] translate-x-[5%]"
                                             />

@@ -2,7 +2,7 @@
 
 import { useEffect, useState, useRef } from "react";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "@/components/ui/site-image";
 import { motion, useInView } from "framer-motion";
 import { urlFor } from "@/lib/sanity/image";
 import { Card } from "@/components/ui/card";
@@ -89,6 +89,7 @@ function CategoryCard({ category, index, spanTwo }: { category: ProjectCategory;
                         src={imageSrc}
                         alt={category.title}
                         fill
+                        sizes={spanTwo ? "100vw" : "(max-width: 639px) 100vw, 50vw"}
                         className={cn(
                             "object-cover transition-transform duration-1000 ease-out opacity-60",
                             "group-hover/portfolio:scale-105 group-hover/portfolio:opacity-100",

@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import Image from "next/image";
+import Image from "@/components/ui/site-image";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 import { CornerBorders } from "@/components/ui/corner-borders";
