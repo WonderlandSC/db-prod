@@ -3,7 +3,6 @@ import { notFound } from "next/navigation";
 import { cn } from "@/lib/utils";
 import { urlFor } from "@/lib/sanity/image";
 import Image from "next/image";
-import { PortableText } from "@portabletext/react";
 import { getVideoData } from "@/lib/utils/video";
 import type { Metadata } from "next";
 
